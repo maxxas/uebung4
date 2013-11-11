@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  Zahl: 1
+  teilbar3: MyString
+  teilbar5: MyString
+
+two:
+  Zahl: 1
+  teilbar3: MyString
+  teilbar5: MyString
