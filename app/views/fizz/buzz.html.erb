@@ -5,3 +5,27 @@
 <p>fizz number = <%= @fizz_number%></p>
 <p>buzz number = <%= @buzz_number%></p>
 <p>maxnumber = <%= @max_number%></p>
+
+<table border="1">
+
+<tr>
+	<th width="300">Zahl</th>
+	<th width="300">Teilbar durch <%= @fizz_number %> </th>
+	<th width="300">Teilbar durch <%= @buzz_number %></th>
+</tr>
+
+<% i = 1 %>
+<% while i <= @max_number %>
+<tr>
+	<td width="300"><%= i %></td>
+	<td width="300">
+   <%= teilbar3(i) %>
+	</td>
+	<td width="300">
+		<%= teilbar5(i) %>
+	</td>
+</tr>
+<% i += 1 %> 
+<% end %>
+
+</table> 
